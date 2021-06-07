@@ -6,7 +6,7 @@ let like= prompt('do you think I like sport?').toLowerCase();
 if (like === 'yes' || like === 'y'){
     
     //console.log(like)
-    alert(correct)
+    alert('correct')
 
 }else if (like === 'no' || like === 'n'){
 
@@ -21,7 +21,7 @@ let hate= prompt('do you think I hate cooking?').toLowerCase();
 if (hate === 'yes' || hate === 'y'){
     
     //console.log(hate)
-    alert(correct)
+    alert('correct')
 
 }else if (hate === 'no' || hate === 'n'){
 
@@ -39,7 +39,7 @@ if (live === 'yes' || live === 'y'){
 }else if (live === 'no' || live === 'n'){
 
     //console.log(live)
-    alert(correct)
+    alert('correct')
 }else {
     alert('Please type (yes) or (no) or (y) or (n)')
 
@@ -53,7 +53,7 @@ if (age === 'yes' || age === 'y'){
 }else if (age === 'no' || age === 'n'){
 
     //console.log(age)
-    alert(correct)
+    alert('correct')
 }else {
     alert('Please type (yes) or (no) or (y) or (n)')
 
@@ -69,7 +69,7 @@ if (luckyNumber === 'yes' || luckyNumber === 'y'){
 }else if (luckyNumber === 'no' || luckyNumber === 'n'){
 
     //console.log(luckyNumber)
-    alert(correct)
+    alert('correct')
 }else {
     alert('Please type (yes) or (no) or (y) or (n)')
 
