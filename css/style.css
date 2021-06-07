@@ -1,0 +1,14 @@
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+     margin-bottom: 50px;
+    background-color: aqua; 
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+     margin-bottom: 50px; 
+     text-indent: 50px;
+     background-color: aquamarine;
+  }
