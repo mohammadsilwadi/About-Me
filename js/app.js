@@ -77,7 +77,7 @@ if (luckyNumber === 'yes' || luckyNumber === 'y'){
   alert('Please type (yes) or (no) or (y) or (n)');}
 let guessNumber= 0;
 for(let i=0; i<4;i++){
-  guessNumber=prompt('enter my lucky number,only numbers allowed!!');
+  guessNumber=prompt('guess my lucky number');
   guessNumber=parseInt(guessNumber);
   if (guessNumber === 7){
     rightAnswer++;
@@ -96,7 +96,7 @@ for(let i=0; i<4;i++){
   else if (guessNumber <= 2 ){
     alert('too low from the answer');
   }
-  else break;
+  else alert('only numbers allowed!!');
 
 
 
