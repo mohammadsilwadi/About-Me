@@ -118,6 +118,6 @@ for(let b =0; b<6;b++){
   }
 }
 alert(' these are the countries that i am thinking to visit italy,france,madrid,uae,morocco,egypt');
-alert('you answer a ' + rightAnswer + ' questions right') ;
+alert('you answer a ' + rightAnswer + ' questions right from seven questions') ;
 alert('see you soon ' + userName) ;
 
