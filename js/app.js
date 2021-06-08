@@ -81,6 +81,7 @@ for(let i=0; i<4;i++){
   guessNumber=parseInt(guessNumber);
   if (guessNumber === 7){
     rightAnswer++;
+    //console.log( like )
     break;
   }
   else if (guessNumber >=8 && guessNumber<=11){
@@ -110,6 +111,7 @@ for(let b =0; b<6;b++){
   if (visit === place[0] || visit ===place[1] || visit ===place[2] ||visit ===place[3] ||visit ===place[4] ||visit ===place[5] ){
     // eslint-disable-next-line no-unused-vars
     rightAnswer++;
+    //console.log( like )
     break;
   } else (visit !== place[0] || visit !==place[1] || visit !==place[2] ||visit !==place[3] ||visit !==place[4] ||visit !==place[5] );{
     alert(' hint :country in europe or africa');
