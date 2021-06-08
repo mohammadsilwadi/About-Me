@@ -105,7 +105,7 @@ for(let i=0; i<4;i++){
 
 let place =['italy','france','madrid','uae','morocco','egypt'];
 for(let b =0; b<6;b++){
-  let visit=prompt('which country I am thinking to visit');
+  let visit=prompt('which country I am thinking to visit').toLowerCase();
 
   if (visit === place[0] || visit ===place[1] || visit ===place[2] ||visit ===place[3] ||visit ===place[4] ||visit ===place[5] ){
     // eslint-disable-next-line no-unused-vars
