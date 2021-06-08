@@ -63,12 +63,12 @@ if (age === 'yes' || age === 'y'){
   alert('Please type (yes) or (no) or (y) or (n)');
 
 }
-let luckyNumber= prompt('IS 159 is my lucky number').toLowerCase();
-if (luckyNumber === 'yes' || luckyNumber === 'y'){
+let gba= prompt('Is my  GPA in university  3.8').toLowerCase();
+if (gba === 'yes' || gba === 'y'){
 
-  alert('my lucky Number is 7');
+  alert('my gba 2.95');
 
-}else if (luckyNumber === 'no' || luckyNumber === 'n'){
+}else if (gba === 'no' || gba === 'n'){
 
   //console.log(luckyNumber)
   alert('correct');
