@@ -9,7 +9,6 @@ function trueQuestion (question , correct , uncorrect){
 let userInput; 
 do {
   userInput= prompt(question).toLocaleLowerCase();
-
 } while (userInput!== 'yes' && userInput !== 'y' && userInput !== 'no' && userInput !== 'n')
 
 if( userInput === 'yes' || userInput === 'y') {
@@ -27,7 +26,6 @@ function falseQuestion (question , correct , uncorrect){
   let userInput; 
   do {
     userInput= prompt(question).toLocaleLowerCase();
-  
   } while (userInput!== 'yes' && userInput !== 'y' && userInput !== 'no' && userInput !== 'n')
   
   if( userInput === 'yes' || userInput === 'y') {
