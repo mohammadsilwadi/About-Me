@@ -1,6 +1,7 @@
 'use strict';
 
 let rightAnswer=0;
+
 let userName= prompt('what is your name');
 alert('wlecome '+userName+ ' to my guessing game');
 
@@ -20,8 +21,8 @@ function trueQuestion (question , correct , uncorrect){
     alert(uncorrect);
   }
 }
-trueQuestion('do you think I like sport?', 'you are right','I love sport' );
-trueQuestion('do you think I hate cooking?', 'you are right','I hate cooking' );
+trueQuestion('do you think I like sport? enter yes or no or n or y !!!', 'you are right','I love sport' );
+trueQuestion('do you think I hate cooking?   enter yes or no or n or y !!!', 'you are right','I hate cooking' );
 function falseQuestion (question , correct , uncorrect){
   let userInput;
   do {
@@ -37,9 +38,9 @@ function falseQuestion (question , correct , uncorrect){
   }
 }
 
-falseQuestion('Is my  GPA in university  3.8' ,'my GPA is 2.95','you are right');
-falseQuestion('do you think I live in PARIS ?' , 'I live in amman' , 'you are right');
-falseQuestion('do you think I have 50 years old ?' , 'I am 24 years old' , 'you are right');
+falseQuestion('Is my  GPA in university  3.8?    enter yes or no or n or y !!!','my GPA is 2.95','you are right');
+falseQuestion('do you think I live in PARIS ?    enter yes or no or n or y !!!', 'I live in amman' , 'you are right');
+falseQuestion('do you think I have 50 years old ?  enter yes or no or n or y !!!' , 'I am 24 years old' , 'you are right');
 function question5(){
   let guessNumber= 0;
   for(let i=0; i<4;i++){
@@ -74,7 +75,7 @@ function question6(){
     if (visit === place[0] || visit ===place[1] || visit ===place[2] ||visit ===place[3] ||visit ===place[4] ||visit ===place[5] ){
       rightAnswer++;
       break;
-    } else (visit !== place[0] || visit !==place[1] || visit !==place[2] ||visit !==place[3] ||visit !==place[4] ||visit !==place[5] );{
+    } else ;{
       alert(' hint :country in europe or africa');
     }
   }}
